@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import { Carousel } from "./Components/Carousel";
 import Menu from "./Components/Menu/Menu";
+import Footer from "./Components/Footer";
 
 export default function Home() {
   const slideData = [
@@ -36,6 +37,7 @@ export default function Home() {
         <Carousel slides={slideData} />
       </div>
       <Menu />
+      <Footer/>
     </div>
   );
 }
