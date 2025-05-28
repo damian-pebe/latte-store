@@ -48,7 +48,6 @@ interface SpotlightButtonProps
 }
 
 const SpotlightButton: React.FC<SpotlightButtonProps> = ({
-  children,
   className = "",
   spotlightColor = "rgba(255, 255, 255, 0.25)",
   ...props

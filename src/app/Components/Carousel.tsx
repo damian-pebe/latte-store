@@ -43,12 +43,6 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
     };
   }, []);
 
-  const hover = () => {
-    if (slideRef.current) {
-      slideRef.current.style.cursor = "pointer";
-    }
-  };
-
   const { src } = slide;
 
   return (

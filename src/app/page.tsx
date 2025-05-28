@@ -38,6 +38,10 @@ export default function Home() {
       </div>
       <Menu />
       <Footer/>
+{/* 
+      <div className="py-56 text-6xl font-plaster text-center">
+        Latte <br/>Heaven
+      </div> */}
     </div>
   );
 }
