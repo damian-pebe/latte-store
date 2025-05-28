@@ -44,8 +44,8 @@ const ephesis = Ephesis({
 })
 
 export const metadata: Metadata = {
-  title: "Damian Pebe",
-  description: "Damian Pebe's Portfolio Website",
+  title: "Latte Heaven",
+  description: "Your perfect spot for coffee lovers",
 };
 
 export default function RootLayout({
@@ -58,6 +58,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${lobster.variable} ${poppins.variable} ${plaster.variable} ${ephesis.variable} antialiased`}
       >
+       <div
+  className="fixed inset-0 z-40 pointer-events-none"
+>
+  <div className="w-full h-full  bg-transparent shadow-[inset_0_0_60px_10px_rgba(255,255,255,0.6),inset_0_0_180px_60px_rgba(255,255,255,0.4)]" />
+</div>
         {children}
       </body>
     </html>

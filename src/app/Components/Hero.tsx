@@ -5,7 +5,7 @@ import React from "react";
 export default function Hero() {
   return (
     <div className="max-w-6xl mx-auto px-10 py-8 text-center font-poppins gap-10 ">
-      <div className="inline-block bg-[#fbf0d7] text-base rounded-full px-4 py-2 mb-4 shadow hover:cursor-grab transform hover:-translate-y-1 duration-1000">
+      <div className="inline-block bg-[#ffe6c4] text-base rounded-full px-4 py-2 mb-4 shadow hover:cursor-grab transform hover:-translate-y-1 duration-1000">
         Google:
         <span className="ml-1 text-black text-sm gap-x-5">
           {Array.from({ length: 5 }, (_, i) => (
@@ -28,7 +28,7 @@ export default function Hero() {
 
       <SpotlightButton
         className="custom-spotlight-card"
-        spotlightColor="rgba(255, 255, 255, 0.4)"
+        spotlightColor="rgba(255, 255, 255, 0.6)"
       ></SpotlightButton>
     </div>
   );
